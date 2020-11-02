@@ -1,0 +1,226 @@
+{
+  "id": 0,
+  "name": "typedoc",
+  "kind": 0,
+  "flags": {},
+  "children": [
+    {
+      "id": 1,
+      "name": "\"react\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/react/react.tsx",
+      "children": [
+        {
+          "id": 5,
+          "name": "Demo",
+          "kind": 128,
+          "kindString": "Class",
+          "flags": {
+            "isExported": true
+          },
+          "children": [
+            {
+              "id": 7,
+              "name": "constructor",
+              "kind": 512,
+              "kindString": "Constructor",
+              "flags": {
+                "isExported": true
+              },
+              "signatures": [
+                {
+                  "id": 8,
+                  "name": "new Demo",
+                  "kind": 16384,
+                  "kindString": "Constructor signature",
+                  "flags": {
+                    "isExported": true
+                  },
+                  "parameters": [
+                    {
+                      "id": 9,
+                      "name": "props",
+                      "kind": 32768,
+                      "kindString": "Parameter",
+                      "flags": {
+                        "isExported": true
+                      },
+                      "type": {
+                        "type": "reference",
+                        "id": 2,
+                        "name": "DemoProps"
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "reference",
+                    "id": 5,
+                    "name": "Demo"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "name": "foo",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isPrivate": true,
+                "isExported": true
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            },
+            {
+              "id": 10,
+              "name": "render",
+              "kind": 2048,
+              "kindString": "Method",
+              "flags": {
+                "isExported": true
+              },
+              "signatures": [
+                {
+                  "id": 11,
+                  "name": "render",
+                  "kind": 4096,
+                  "kindString": "Call signature",
+                  "flags": {
+                    "isExported": true
+                  },
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "any"
+                  }
+                }
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "title": "Constructors",
+              "kind": 512,
+              "children": [
+                7
+              ]
+            },
+            {
+              "title": "Properties",
+              "kind": 1024,
+              "children": [
+                6
+              ]
+            },
+            {
+              "title": "Methods",
+              "kind": 2048,
+              "children": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "DemoProps",
+          "kind": 256,
+          "kindString": "Interface",
+          "flags": {
+            "isExported": true
+          },
+          "children": [
+            {
+              "id": 4,
+              "name": "age",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isExported": true
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            },
+            {
+              "id": 3,
+              "name": "name",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isExported": true
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "string"
+              }
+            }
+          ],
+          "groups": [
+            {
+              "title": "Properties",
+              "kind": 1024,
+              "children": [
+                4,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "React",
+          "kind": 32,
+          "kindString": "Variable",
+          "flags": {
+            "isExported": true,
+            "isConst": true
+          },
+          "type": {
+            "type": "intrinsic",
+            "name": "unknown"
+          }
+        }
+      ],
+      "groups": [
+        {
+          "title": "Classes",
+          "kind": 128,
+          "children": [
+            5
+          ]
+        },
+        {
+          "title": "Interfaces",
+          "kind": 256,
+          "children": [
+            2
+          ]
+        },
+        {
+          "title": "Variables",
+          "kind": 32,
+          "children": [
+            12
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "title": "Modules",
+      "kind": 1,
+      "children": [
+        1
+      ]
+    }
+  ]
+}

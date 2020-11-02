@@ -1,0 +1,867 @@
+{
+  "id": 0,
+  "name": "typedoc",
+  "kind": 0,
+  "flags": {},
+  "children": [
+    {
+      "id": 1,
+      "name": "\"alias\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/alias/alias.ts",
+      "children": [
+        {
+          "id": 30,
+          "name": "GH1330",
+          "kind": 2,
+          "kindString": "Namespace",
+          "flags": {},
+          "children": [
+            {
+              "id": 31,
+              "name": "Example",
+              "kind": 256,
+              "kindString": "Interface",
+              "flags": {},
+              "typeParameter": [
+                {
+                  "id": 32,
+                  "name": "T",
+                  "kind": 131072,
+                  "kindString": "Type parameter",
+                  "flags": {},
+                  "type": {
+                    "type": "reference",
+                    "id": 33,
+                    "name": "ExampleParam"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 33,
+              "name": "ExampleParam",
+              "kind": 4194304,
+              "kindString": "Type alias",
+              "flags": {},
+              "type": {
+                "type": "reference",
+                "id": 31,
+                "name": "Example"
+              }
+            },
+            {
+              "id": 42,
+              "name": "HasProp",
+              "kind": 4194304,
+              "kindString": "Type alias",
+              "flags": {},
+              "typeParameter": [
+                {
+                  "id": 43,
+                  "name": "T",
+                  "kind": 131072,
+                  "kindString": "Type parameter",
+                  "flags": {}
+                }
+              ],
+              "type": {
+                "type": "reflection",
+                "declaration": {
+                  "id": 44,
+                  "name": "__type",
+                  "kind": 65536,
+                  "kindString": "Type literal",
+                  "flags": {},
+                  "children": [
+                    {
+                      "id": 45,
+                      "name": "key",
+                      "kind": 32,
+                      "kindString": "Variable",
+                      "flags": {},
+                      "type": {
+                        "type": "typeParameter",
+                        "name": "T"
+                      }
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "title": "Variables",
+                      "kind": 32,
+                      "children": [
+                        45
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 34,
+              "name": "makeExample",
+              "kind": 32,
+              "kindString": "Variable",
+              "flags": {
+                "isConst": true
+              },
+              "type": {
+                "type": "reflection",
+                "declaration": {
+                  "id": 35,
+                  "name": "__type",
+                  "kind": 65536,
+                  "kindString": "Type literal",
+                  "flags": {},
+                  "signatures": [
+                    {
+                      "id": 36,
+                      "name": "__call",
+                      "kind": 4096,
+                      "kindString": "Call signature",
+                      "flags": {},
+                      "type": {
+                        "type": "reference",
+                        "id": 31,
+                        "name": "Example"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 37,
+              "name": "makeExample2",
+              "kind": 32,
+              "kindString": "Variable",
+              "flags": {
+                "isConst": true
+              },
+              "type": {
+                "type": "reflection",
+                "declaration": {
+                  "id": 38,
+                  "name": "__type",
+                  "kind": 65536,
+                  "kindString": "Type literal",
+                  "flags": {},
+                  "signatures": [
+                    {
+                      "id": 39,
+                      "name": "__call",
+                      "kind": 4096,
+                      "kindString": "Call signature",
+                      "flags": {},
+                      "type": {
+                        "type": "reference",
+                        "id": 33,
+                        "name": "ExampleParam"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 46,
+              "name": "makeProp",
+              "kind": 32,
+              "kindString": "Variable",
+              "flags": {
+                "isConst": true
+              },
+              "type": {
+                "type": "reflection",
+                "declaration": {
+                  "id": 47,
+                  "name": "__type",
+                  "kind": 65536,
+                  "kindString": "Type literal",
+                  "flags": {},
+                  "signatures": [
+                    {
+                      "id": 48,
+                      "name": "__call",
+                      "kind": 4096,
+                      "kindString": "Call signature",
+                      "flags": {},
+                      "typeParameter": [
+                        {
+                          "id": 49,
+                          "name": "T",
+                          "kind": 131072,
+                          "kindString": "Type parameter",
+                          "flags": {}
+                        }
+                      ],
+                      "parameters": [
+                        {
+                          "id": 50,
+                          "name": "x",
+                          "kind": 32768,
+                          "kindString": "Parameter",
+                          "flags": {},
+                          "type": {
+                            "type": "typeParameter",
+                            "name": "T"
+                          }
+                        }
+                      ],
+                      "type": {
+                        "type": "reference",
+                        "id": 42,
+                        "typeArguments": [
+                          {
+                            "type": "typeParameter",
+                            "name": "T"
+                          }
+                        ],
+                        "name": "HasProp"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 40,
+              "name": "testValue",
+              "kind": 32,
+              "kindString": "Variable",
+              "flags": {
+                "isExported": true,
+                "isConst": true
+              },
+              "type": {
+                "type": "reference",
+                "id": 31,
+                "typeArguments": [
+                  {
+                    "type": "reference",
+                    "id": 33,
+                    "name": "ExampleParam"
+                  }
+                ],
+                "name": "Example"
+              },
+              "defaultValue": "makeExample()"
+            },
+            {
+              "id": 41,
+              "name": "testValue2",
+              "kind": 32,
+              "kindString": "Variable",
+              "flags": {
+                "isExported": true,
+                "isConst": true
+              },
+              "type": {
+                "type": "reference",
+                "id": 33,
+                "name": "ExampleParam"
+              },
+              "defaultValue": "makeExample2()"
+            },
+            {
+              "id": 51,
+              "name": "testValue3",
+              "kind": 32,
+              "kindString": "Variable",
+              "flags": {
+                "isExported": true,
+                "isConst": true
+              },
+              "type": {
+                "type": "reference",
+                "id": 42,
+                "typeArguments": [
+                  {
+                    "type": "intrinsic",
+                    "name": "number"
+                  }
+                ],
+                "name": "HasProp"
+              },
+              "defaultValue": "makeProp(1)"
+            }
+          ],
+          "groups": [
+            {
+              "title": "Interfaces",
+              "kind": 256,
+              "children": [
+                31
+              ]
+            },
+            {
+              "title": "Type aliases",
+              "kind": 4194304,
+              "children": [
+                33,
+                42
+              ]
+            },
+            {
+              "title": "Variables",
+              "kind": 32,
+              "children": [
+                34,
+                37,
+                46,
+                40,
+                41,
+                51
+              ]
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "HorribleRecursiveTypeThatShouldNotBeUsedByAnyone",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "See GH#1150. Calling typeChecker.typeToString on this type will send TS into an infinite\nloop, which is undesirable."
+          },
+          "typeParameter": [
+            {
+              "id": 23,
+              "name": "T",
+              "kind": 131072,
+              "kindString": "Type parameter",
+              "flags": {
+                "isExported": true
+              },
+              "type": {
+                "type": "array",
+                "elementType": {
+                  "type": "intrinsic",
+                  "name": "any"
+                }
+              }
+            },
+            {
+              "id": 25,
+              "name": "R",
+              "kind": 131072,
+              "kindString": "Type parameter",
+              "flags": {
+                "isExported": true
+              }
+            }
+          ],
+          "type": {
+            "type": "indexedAccess",
+            "indexType": {
+              "type": "conditional",
+              "checkType": {
+                "type": "indexedAccess",
+                "indexType": {
+                  "type": "stringLiteral",
+                  "value": "length"
+                },
+                "objectType": {
+                  "type": "typeParameter",
+                  "name": "T",
+                  "constraint": {
+                    "type": "array",
+                    "elementType": {
+                      "type": "intrinsic",
+                      "name": "any"
+                    }
+                  }
+                }
+              },
+              "extendsType": {
+                "type": "unknown",
+                "name": "0"
+              },
+              "trueType": {
+                "type": "unknown",
+                "name": "0"
+              },
+              "falseType": {
+                "type": "unknown",
+                "name": "1"
+              }
+            },
+            "objectType": {
+              "type": "reflection",
+              "declaration": {
+                "id": 26,
+                "name": "__type",
+                "kind": 65536,
+                "kindString": "Type literal",
+                "flags": {
+                  "isExported": true
+                },
+                "children": [
+                  {
+                    "id": 27,
+                    "name": "0",
+                    "kind": 32,
+                    "kindString": "Variable",
+                    "flags": {
+                      "isExported": true
+                    },
+                    "type": {
+                      "type": "typeParameter",
+                      "name": "R",
+                      "default": {
+                        "type": "reflection",
+                        "declaration": {
+                          "id": 24,
+                          "name": "__type",
+                          "kind": 65536,
+                          "kindString": "Type literal",
+                          "flags": {
+                            "isExported": true
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": 28,
+                    "name": "1",
+                    "kind": 32,
+                    "kindString": "Variable",
+                    "flags": {
+                      "isExported": true
+                    },
+                    "type": {
+                      "type": "reference",
+                      "id": 22,
+                      "typeArguments": [
+                        {
+                          "type": "reference",
+                          "id": 13,
+                          "typeArguments": [
+                            {
+                              "type": "typeParameter",
+                              "name": "T",
+                              "constraint": {
+                                "type": "array",
+                                "elementType": {
+                                  "type": "intrinsic",
+                                  "name": "any"
+                                }
+                              }
+                            }
+                          ],
+                          "name": "PopFront"
+                        },
+                        {
+                          "type": "reflection",
+                          "declaration": {
+                            "id": 29,
+                            "name": "__type",
+                            "kind": 65536,
+                            "kindString": "Type literal",
+                            "flags": {
+                              "isExported": true
+                            }
+                          }
+                        }
+                      ],
+                      "name": "HorribleRecursiveTypeThatShouldNotBeUsedByAnyone"
+                    }
+                  }
+                ],
+                "groups": [
+                  {
+                    "title": "Variables",
+                    "kind": 32,
+                    "children": [
+                      27,
+                      28
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": 9,
+          "name": "IsString",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "Conditional types from TS2.8"
+          },
+          "typeParameter": [
+            {
+              "id": 10,
+              "name": "T",
+              "kind": 131072,
+              "kindString": "Type parameter",
+              "flags": {
+                "isExported": true
+              }
+            }
+          ],
+          "type": {
+            "type": "conditional",
+            "checkType": {
+              "type": "typeParameter",
+              "name": "T"
+            },
+            "extendsType": {
+              "type": "intrinsic",
+              "name": "string"
+            },
+            "trueType": {
+              "type": "stringLiteral",
+              "value": "string"
+            },
+            "falseType": {
+              "type": "stringLiteral",
+              "value": "not string"
+            }
+          }
+        },
+        {
+          "id": 13,
+          "name": "PopFront",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "Conditional type with infer"
+          },
+          "typeParameter": [
+            {
+              "id": 14,
+              "name": "T",
+              "kind": 131072,
+              "kindString": "Type parameter",
+              "flags": {
+                "isExported": true
+              },
+              "type": {
+                "type": "array",
+                "elementType": {
+                  "type": "intrinsic",
+                  "name": "any"
+                }
+              }
+            }
+          ],
+          "type": {
+            "type": "conditional",
+            "checkType": {
+              "type": "reflection",
+              "declaration": {
+                "id": 15,
+                "name": "__type",
+                "kind": 65536,
+                "kindString": "Type literal",
+                "flags": {
+                  "isExported": true
+                },
+                "signatures": [
+                  {
+                    "id": 16,
+                    "name": "__call",
+                    "kind": 4096,
+                    "kindString": "Call signature",
+                    "flags": {
+                      "isExported": true
+                    },
+                    "parameters": [
+                      {
+                        "id": 17,
+                        "name": "args",
+                        "kind": 32768,
+                        "kindString": "Parameter",
+                        "flags": {
+                          "isExported": true,
+                          "isRest": true
+                        },
+                        "type": {
+                          "type": "typeParameter",
+                          "name": "T",
+                          "constraint": {
+                            "type": "array",
+                            "elementType": {
+                              "type": "intrinsic",
+                              "name": "any"
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "type": {
+                      "type": "intrinsic",
+                      "name": "any"
+                    }
+                  }
+                ]
+              }
+            },
+            "extendsType": {
+              "type": "reflection",
+              "declaration": {
+                "id": 18,
+                "name": "__type",
+                "kind": 65536,
+                "kindString": "Type literal",
+                "flags": {
+                  "isExported": true
+                },
+                "signatures": [
+                  {
+                    "id": 19,
+                    "name": "__call",
+                    "kind": 4096,
+                    "kindString": "Call signature",
+                    "flags": {
+                      "isExported": true
+                    },
+                    "parameters": [
+                      {
+                        "id": 20,
+                        "name": "a",
+                        "kind": 32768,
+                        "kindString": "Parameter",
+                        "flags": {
+                          "isExported": true
+                        },
+                        "type": {
+                          "type": "intrinsic",
+                          "name": "any"
+                        }
+                      },
+                      {
+                        "id": 21,
+                        "name": "r",
+                        "kind": 32768,
+                        "kindString": "Parameter",
+                        "flags": {
+                          "isExported": true,
+                          "isRest": true
+                        },
+                        "type": {
+                          "type": "inferred",
+                          "name": "R"
+                        }
+                      }
+                    ],
+                    "type": {
+                      "type": "intrinsic",
+                      "name": "any"
+                    }
+                  }
+                ]
+              }
+            },
+            "trueType": {
+              "type": "typeParameter",
+              "name": "R"
+            },
+            "falseType": {
+              "type": "intrinsic",
+              "name": "never"
+            }
+          }
+        },
+        {
+          "id": 11,
+          "name": "PromiseType",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "Extracts the type of a promise."
+          },
+          "typeParameter": [
+            {
+              "id": 12,
+              "name": "T",
+              "kind": 131072,
+              "kindString": "Type parameter",
+              "flags": {
+                "isExported": true
+              }
+            }
+          ],
+          "type": {
+            "type": "conditional",
+            "checkType": {
+              "type": "typeParameter",
+              "name": "T"
+            },
+            "extendsType": {
+              "type": "reference",
+              "typeArguments": [
+                {
+                  "type": "inferred",
+                  "name": "U"
+                }
+              ],
+              "name": "PromiseLike"
+            },
+            "trueType": {
+              "type": "typeParameter",
+              "name": "U"
+            },
+            "falseType": {
+              "type": "typeParameter",
+              "name": "T"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "name": "TCompareFunction",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "A type that describes a compare function, e.g. for array.sort()."
+          },
+          "typeParameter": [
+            {
+              "id": 3,
+              "name": "T",
+              "kind": 131072,
+              "kindString": "Type parameter",
+              "flags": {
+                "isExported": true
+              }
+            }
+          ],
+          "type": {
+            "type": "reflection",
+            "declaration": {
+              "id": 4,
+              "name": "__type",
+              "kind": 65536,
+              "kindString": "Type literal",
+              "flags": {
+                "isExported": true
+              },
+              "signatures": [
+                {
+                  "id": 5,
+                  "name": "__call",
+                  "kind": 4096,
+                  "kindString": "Call signature",
+                  "flags": {
+                    "isExported": true
+                  },
+                  "parameters": [
+                    {
+                      "id": 6,
+                      "name": "a",
+                      "kind": 32768,
+                      "kindString": "Parameter",
+                      "flags": {
+                        "isExported": true
+                      },
+                      "type": {
+                        "type": "typeParameter",
+                        "name": "T"
+                      }
+                    },
+                    {
+                      "id": 7,
+                      "name": "b",
+                      "kind": 32768,
+                      "kindString": "Parameter",
+                      "flags": {
+                        "isExported": true
+                      },
+                      "type": {
+                        "type": "typeParameter",
+                        "name": "T"
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "number"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 8,
+          "name": "TId",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "A type for IDs."
+          },
+          "type": {
+            "type": "union",
+            "types": [
+              {
+                "type": "intrinsic",
+                "name": "number"
+              },
+              {
+                "type": "intrinsic",
+                "name": "string"
+              }
+            ]
+          }
+        }
+      ],
+      "groups": [
+        {
+          "title": "Namespaces",
+          "kind": 2,
+          "children": [
+            30
+          ]
+        },
+        {
+          "title": "Type aliases",
+          "kind": 4194304,
+          "children": [
+            22,
+            9,
+            13,
+            11,
+            2,
+            8
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "title": "Modules",
+      "kind": 1,
+      "children": [
+        1
+      ]
+    }
+  ]
+}

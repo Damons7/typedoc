@@ -1,0 +1,650 @@
+{
+  "id": 0,
+  "name": "typedoc",
+  "kind": 0,
+  "flags": {},
+  "children": [
+    {
+      "id": 1,
+      "name": "\"parens\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/types/parens.ts",
+      "children": [
+        {
+          "id": 2,
+          "name": "ZZ",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "type": {
+            "type": "intersection",
+            "types": [
+              {
+                "type": "unknown",
+                "name": "1"
+              },
+              {
+                "type": "reflection",
+                "declaration": {
+                  "id": 3,
+                  "name": "__type",
+                  "kind": 65536,
+                  "kindString": "Type literal",
+                  "flags": {
+                    "isExported": true
+                  },
+                  "children": [
+                    {
+                      "id": 4,
+                      "name": "a",
+                      "kind": 32,
+                      "kindString": "Variable",
+                      "flags": {
+                        "isExported": true
+                      },
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "string"
+                      }
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "title": "Variables",
+                      "kind": 32,
+                      "children": [
+                        4
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "groups": [
+        {
+          "title": "Type aliases",
+          "kind": 4194304,
+          "children": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "\"query\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/types/query.ts",
+      "children": [
+        {
+          "id": 7,
+          "name": "TypeOfX",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "type": {
+            "type": "query",
+            "queryType": {
+              "type": "reference",
+              "id": 6,
+              "name": "x"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "name": "x",
+          "kind": 32,
+          "kindString": "Variable",
+          "flags": {
+            "isExported": true,
+            "isConst": true
+          },
+          "type": {
+            "type": "unknown",
+            "name": "1"
+          },
+          "defaultValue": "1"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Type aliases",
+          "kind": 4194304,
+          "children": [
+            7
+          ]
+        },
+        {
+          "title": "Variables",
+          "kind": 32,
+          "children": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "\"tuple\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/types/tuple.ts",
+      "children": [
+        {
+          "id": 9,
+          "name": "NamedTuple",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "type": {
+            "type": "tuple",
+            "elements": [
+              {
+                "type": "named-tuple-member",
+                "name": "name",
+                "isOptional": false,
+                "element": {
+                  "type": "intrinsic",
+                  "name": "string"
+                }
+              },
+              {
+                "type": "named-tuple-member",
+                "name": "optionalName",
+                "isOptional": true,
+                "element": {
+                  "type": "intrinsic",
+                  "name": "number"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": 10,
+          "name": "namedTuple",
+          "kind": 32,
+          "kindString": "Variable",
+          "flags": {
+            "isExported": true,
+            "isConst": true
+          },
+          "type": {
+            "type": "tuple",
+            "elements": [
+              {
+                "type": "intrinsic",
+                "name": "string"
+              },
+              {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            ]
+          },
+          "defaultValue": "returnMapped<NamedTuple>()"
+        },
+        {
+          "id": 11,
+          "name": "returnMapped",
+          "kind": 64,
+          "kindString": "Function",
+          "flags": {},
+          "signatures": [
+            {
+              "id": 12,
+              "name": "returnMapped",
+              "kind": 4096,
+              "kindString": "Call signature",
+              "flags": {},
+              "typeParameter": [
+                {
+                  "id": 13,
+                  "name": "T",
+                  "kind": 131072,
+                  "kindString": "Type parameter",
+                  "flags": {}
+                }
+              ],
+              "type": {
+                "type": "reflection",
+                "declaration": {
+                  "id": 14,
+                  "name": "__type",
+                  "kind": 65536,
+                  "kindString": "Type literal",
+                  "flags": {}
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "title": "Type aliases",
+          "kind": 4194304,
+          "children": [
+            9
+          ]
+        },
+        {
+          "title": "Variables",
+          "kind": 32,
+          "children": [
+            10
+          ]
+        },
+        {
+          "title": "Functions",
+          "kind": 64,
+          "children": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "\"type-operator\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/types/type-operator.ts",
+      "children": [
+        {
+          "id": 17,
+          "name": "B",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "type": {
+            "type": "typeOperator",
+            "operator": "readonly",
+            "target": {
+              "type": "array",
+              "elementType": {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            }
+          }
+        },
+        {
+          "id": 18,
+          "name": "C",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "type": {
+            "type": "reflection",
+            "declaration": {
+              "id": 19,
+              "name": "__type",
+              "kind": 65536,
+              "kindString": "Type literal",
+              "flags": {
+                "isExported": true
+              },
+              "children": [
+                {
+                  "id": 20,
+                  "name": "prop1",
+                  "kind": 32,
+                  "kindString": "Variable",
+                  "flags": {
+                    "isExported": true
+                  },
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "string"
+                  }
+                },
+                {
+                  "id": 21,
+                  "name": "prop2",
+                  "kind": 32,
+                  "kindString": "Variable",
+                  "flags": {
+                    "isExported": true
+                  },
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "number"
+                  }
+                }
+              ],
+              "groups": [
+                {
+                  "title": "Variables",
+                  "kind": 32,
+                  "children": [
+                    20,
+                    21
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 22,
+          "name": "D",
+          "kind": 4194304,
+          "kindString": "Type alias",
+          "flags": {
+            "isExported": true
+          },
+          "type": {
+            "type": "typeOperator",
+            "operator": "keyof",
+            "target": {
+              "type": "reference",
+              "id": 18,
+              "name": "C"
+            }
+          }
+        },
+        {
+          "id": 16,
+          "name": "a",
+          "kind": 32,
+          "kindString": "Variable",
+          "flags": {
+            "isExported": true,
+            "isConst": true
+          },
+          "type": {
+            "type": "typeOperator",
+            "operator": "unique",
+            "target": {
+              "type": "intrinsic",
+              "name": "symbol"
+            }
+          },
+          "defaultValue": "Symbol()"
+        }
+      ],
+      "groups": [
+        {
+          "title": "Type aliases",
+          "kind": 4194304,
+          "children": [
+            17,
+            18,
+            22
+          ]
+        },
+        {
+          "title": "Variables",
+          "kind": 32,
+          "children": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "\"union-or-intersection\"",
+      "kind": 1,
+      "kindString": "Module",
+      "flags": {
+        "isExported": true
+      },
+      "originalName": "%BASE%/types/union-or-intersection.ts",
+      "children": [
+        {
+          "id": 24,
+          "name": "FirstType",
+          "kind": 256,
+          "kindString": "Interface",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "First type for union or intersection type tests."
+          },
+          "children": [
+            {
+              "id": 25,
+              "name": "firstProperty",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isExported": true
+              },
+              "comment": {
+                "shortText": "Property of first type."
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "string"
+              }
+            }
+          ],
+          "groups": [
+            {
+              "title": "Properties",
+              "kind": 1024,
+              "children": [
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "SecondType",
+          "kind": 256,
+          "kindString": "Interface",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "Second type for union or intersection type tests."
+          },
+          "children": [
+            {
+              "id": 27,
+              "name": "secondProperty",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isExported": true
+              },
+              "comment": {
+                "shortText": "Property of second type."
+              },
+              "type": {
+                "type": "intrinsic",
+                "name": "number"
+              }
+            }
+          ],
+          "groups": [
+            {
+              "title": "Properties",
+              "kind": 1024,
+              "children": [
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "ThirdType",
+          "kind": 256,
+          "kindString": "Interface",
+          "flags": {
+            "isExported": true
+          },
+          "comment": {
+            "shortText": "Third type for union or intersection type tests."
+          },
+          "children": [
+            {
+              "id": 31,
+              "name": "thirdComplexProperty",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isExported": true
+              },
+              "comment": {
+                "shortText": "Complex Property of third type."
+              },
+              "type": {
+                "type": "array",
+                "elementType": {
+                  "type": "union",
+                  "types": [
+                    {
+                      "type": "array",
+                      "elementType": {
+                        "type": "intersection",
+                        "types": [
+                          {
+                            "type": "reference",
+                            "id": 24,
+                            "name": "FirstType"
+                          },
+                          {
+                            "type": "reference",
+                            "id": 26,
+                            "name": "SecondType"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "intrinsic",
+                      "name": "string"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": 30,
+              "name": "thirdIntersectionProperty",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isExported": true
+              },
+              "comment": {
+                "shortText": "Intersection Property of third type."
+              },
+              "type": {
+                "type": "intersection",
+                "types": [
+                  {
+                    "type": "reference",
+                    "id": 24,
+                    "name": "FirstType"
+                  },
+                  {
+                    "type": "reference",
+                    "id": 28,
+                    "name": "ThirdType"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 29,
+              "name": "thirdUnionProperty",
+              "kind": 1024,
+              "kindString": "Property",
+              "flags": {
+                "isExported": true
+              },
+              "comment": {
+                "shortText": "Union Property of third type."
+              },
+              "type": {
+                "type": "union",
+                "types": [
+                  {
+                    "type": "reference",
+                    "id": 24,
+                    "name": "FirstType"
+                  },
+                  {
+                    "type": "reference",
+                    "id": 26,
+                    "name": "SecondType"
+                  }
+                ]
+              }
+            }
+          ],
+          "groups": [
+            {
+              "title": "Properties",
+              "kind": 1024,
+              "children": [
+                31,
+                30,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "title": "Interfaces",
+          "kind": 256,
+          "children": [
+            24,
+            26,
+            28
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "title": "Modules",
+      "kind": 1,
+      "children": [
+        1,
+        5,
+        8,
+        15,
+        23
+      ]
+    }
+  ]
+}
